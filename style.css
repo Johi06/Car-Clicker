@@ -1,0 +1,55 @@
+body{
+    margin: 0; 
+}
+.haupt{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; 
+}
+.bhaupt{
+    width: 50px;
+    height: 50px;
+    position: fixed; 
+    bottom: 8%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    border: none; 
+    background-image: url("Haupt.png"); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bfortschritt{
+    width: 50px;
+    height: 50px;
+    position: fixed; 
+    bottom: 8%; 
+    left: 20%; 
+    transform: translateX(-20%); 
+    border: none; 
+    background-image: url("Fortschritte.png"); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bverbesserung{
+    width: 50px;
+    height: 50px;
+    position: fixed; 
+    bottom: 8%; 
+    left: 80%; 
+    transform: translateX(-80%); 
+    border: none;
+    background-image: url("Verbesserung.png"); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.Auto{
+    width: 350px; 
+    position: fixed; 
+    bottom: 40%; 
+    left: 50%;
+    transform: translateX(-50%);  
+    
+}
