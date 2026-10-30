@@ -1,4 +1,4 @@
-<html class="carousel-slide" data-bs-ride="carousel">
+<html>
     <head>
         <title></title>
         <link rel="stylesheet" href="style.css">
@@ -9,21 +9,34 @@
 
     </header>
     <body>
-        <div class="haupt">
-            <h1 id="coins"></h1>
-            <img class="Auto" id="polo"> 
-            <div class="Seitenwechsel">
-            <button class="bfortschritt" id="bfortschritt">
-
-            </button>
-            <button class="bhaupt" id="bhaupt">
-
-            </button>
-            <button class="bverbesserung" id="bverbesserung">
-
-            </button>
+        <div class="hauptscreen" id="hauptscreen">
+            <div>
+                <h1 class="coins" id="coins"></h1>
+                <img class="Auto" id="polo"> 
+            </div>
         </div>
+
+        <div class="fortschrittscreen" id="fortschrittscreen" hidden="true">
+            <h1>fortschritt</h1>
         </div>
+
+        <div class="verbesserungscreen" id="verbesserungscreen" hidden="true">
+            <h1>verbesserungen</h1>
+        </div>
+
+    <div class="Seitenwechsel">
+        <button class="bfortschritt" id="bfortschritt">
+
+        </button>
+        <button class="bhaupt" id="bhaupt">
+
+        </button>
+        <button class="bverbesserung" id="bverbesserung">
+
+        </button>
+    </div>
+
     </body>
+
     <script src="java.js"></script>
 </html>
