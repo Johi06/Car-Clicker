@@ -1,10 +1,13 @@
 body{
     margin: 0; 
 }
-.haupt{
+.hauptscreen{
     width: 100%;
     height: 100vh;
-    overflow: hidden; 
+    overflow: hidden;
+    background-image: url("Haupthintergrund3.jpg"); 
+    background-size: contain; 
+    position: fixed; 
 }
 .bhaupt{
     width: 50px;
@@ -18,6 +21,14 @@ body{
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat; 
+}
+.coins{
+    color: #ffffff; 
+    position: fixed; 
+    top: 8%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 50px; 
 }
 .bfortschritt{
     width: 50px;
@@ -48,8 +59,11 @@ body{
 .Auto{
     width: 350px; 
     position: fixed; 
-    bottom: 40%; 
+    bottom: 35%; 
     left: 50%;
     transform: translateX(-50%);  
-    
+    touch-action: manipulation; 
+    user-select: none; 
+    -webkit-user-select: none; 
+    -webkit-tap-highlight-color: transparent; 
 }
