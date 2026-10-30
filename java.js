@@ -1,4 +1,4 @@
-let bildpolo = document.getElementById('polo'); 
+let bildpolo = document.getElementById('polo');
 let coins = 0; 
 let bhaupt = document.getElementById('bhaupt'); 
 let bverbesserung = document.getElementById('bverbesserung'); 
